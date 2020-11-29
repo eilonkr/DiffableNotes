@@ -30,7 +30,7 @@
 		952F91232573036B0056B154 /* CollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
 		9557BAB725725BF6004D5D54 /* NewNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
 		95D299D0257397F200B9BD25 /* Providable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Providable.swift; sourceTree = "<group>"; };
-		95F8F4872562CCC3000E7DEA /* CoordinatorNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F8F4872562CCC3000E7DEA /* DiffableNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiffableNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F8F48A2562CCC3000E7DEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95F8F48C2562CCC3000E7DEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		95F8F4912562CCC3000E7DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		95F8F4882562CCC3000E7DEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95F8F4872562CCC3000E7DEA /* CoordinatorNotes.app */,
+				95F8F4872562CCC3000E7DEA /* DiffableNotes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		95F8F4862562CCC3000E7DEA /* CoordinatorNotes */ = {
+		95F8F4862562CCC3000E7DEA /* DiffableNotes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95F8F49B2562CCC4000E7DEA /* Build configuration list for PBXNativeTarget "CoordinatorNotes" */;
+			buildConfigurationList = 95F8F49B2562CCC4000E7DEA /* Build configuration list for PBXNativeTarget "DiffableNotes" */;
 			buildPhases = (
 				95F8F4832562CCC3000E7DEA /* Sources */,
 				95F8F4842562CCC3000E7DEA /* Frameworks */,
@@ -151,9 +151,9 @@
 			);
 			dependencies = (
 			);
-			name = CoordinatorNotes;
+			name = DiffableNotes;
 			productName = CoordinatorNotes;
-			productReference = 95F8F4872562CCC3000E7DEA /* CoordinatorNotes.app */;
+			productReference = 95F8F4872562CCC3000E7DEA /* DiffableNotes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -170,7 +170,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 95F8F4822562CCC3000E7DEA /* Build configuration list for PBXProject "CoordinatorNotes" */;
+			buildConfigurationList = 95F8F4822562CCC3000E7DEA /* Build configuration list for PBXProject "DiffableNotes" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -183,7 +183,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				95F8F4862562CCC3000E7DEA /* CoordinatorNotes */,
+				95F8F4862562CCC3000E7DEA /* DiffableNotes */,
 			);
 		};
 /* End PBXProject section */
@@ -398,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		95F8F4822562CCC3000E7DEA /* Build configuration list for PBXProject "CoordinatorNotes" */ = {
+		95F8F4822562CCC3000E7DEA /* Build configuration list for PBXProject "DiffableNotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95F8F4992562CCC4000E7DEA /* Debug */,
@@ -407,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95F8F49B2562CCC4000E7DEA /* Build configuration list for PBXNativeTarget "CoordinatorNotes" */ = {
+		95F8F49B2562CCC4000E7DEA /* Build configuration list for PBXNativeTarget "DiffableNotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95F8F49C2562CCC4000E7DEA /* Debug */,
